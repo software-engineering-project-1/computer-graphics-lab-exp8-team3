@@ -123,7 +123,7 @@ var clipwindow = function(){
       
       this.updatewindow = function(){
                  console.log('update window');
-                 if(document.getElementById("xmin").value <= document.getElementById("xmax").value && document.getElementById("ymin").value <= document.getElementById("ymax").value)
+                 if(parseInt(document.getElementById("xmin").value) <= parseInt(document.getElementById("xmax").value) && parseInt(document.getElementById("ymin").value) <= parseInt(document.getElementById("ymax").value))
                   {
                       
                       this.xmin = parseInt(document.getElementById("xmin").value);

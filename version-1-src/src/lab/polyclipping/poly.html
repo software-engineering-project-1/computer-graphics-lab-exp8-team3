@@ -135,6 +135,7 @@
 
       document.getElementById("previous").addEventListener("click",function(){
          objwindow.clippolydps = [];
+         polyiterator = new Iterator(objwindow.polydps);
          objwindow.initializechart();
          objwindow.chart.render();
       });
